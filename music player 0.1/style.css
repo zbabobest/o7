@@ -1,0 +1,56 @@
+
+
+.container{
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+    border: solid rgb(150, 149, 149) 2px;
+    border-radius: 20px;
+    background-color: rgb(216, 213, 209);
+
+}
+
+
+#controls i{
+    font-size: 30px;
+    color: rgb(87, 87, 87);
+    margin-right: 15px;
+}
+
+#controls #prev{
+    margin-left: 13px;
+}
+#volume-control {
+margin-top: 25px;
+}
+
+#progress{
+    margin-bottom: 20px;
+}
+#progress .times {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#progress-bar{
+    width: 90%;
+}
+
+#music-image{
+    width: 95%;
+}
+
+
+#volume-bar{
+    width: 60%;
+    margin-right: 5%;
+}
+
+#controls #volume{
+    font-size: 25px;
+}
+
