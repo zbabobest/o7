@@ -65,6 +65,13 @@ const nextMusic = () => {
      play.classList = "fa-solid fa-pause";
      audio.play();
   }
+ 
+ document.addEventListener('keypress', tikla => {
+   tus = tikla.code
+   if (tus == 'Space') {
+      const isMusicPlay = container.classList.contains("playing");
+      isMusicPlay ? pauseMusic() : playMusic()
+   }
 
   const calculateTime = (toplamSaniye) => {
    const dakika = Math.floor(toplamSaniye / 60);
